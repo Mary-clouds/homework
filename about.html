@@ -25,7 +25,9 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand ms-md-5" href="#">Mary Nevermann</a>
+        <a class="navbar-brand ms-md-5" href="#" title="menu-title"
+          >Mary Nevermann</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -39,9 +41,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" href="index.html">Home</a>
-            <a class="nav-link active" aria-current="page" href="#">About me</a>
-            <a class="nav-link" href="about.html#contact">contact me</a>
+            <a class="nav-link" href="index.html" title="menu-home">Home</a>
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="#"
+              title="menu-about-me"
+              >About me</a
+            >
+            <a
+              class="nav-link"
+              href="about.html#contact"
+              title="menu-contact-me"
+              >contact me</a
+            >
           </div>
         </div>
       </div>
@@ -60,19 +73,36 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
-          <img src="images/yoga.png" class="img-fluid rounded shadow p-2" />
+          <img
+            src="images/yoga.png"
+            class="img-fluid rounded shadow p-2"
+            alt="yoga-image"
+          />
         </div>
         <div class="col-sm-4">
-          <img src="images/weather.png" class="img-fluid rounded shadow p-2" />
+          <img
+            src="images/weather.png"
+            class="img-fluid rounded shadow p-2"
+            alt="weather-image"
+          />
         </div>
         <div class="col-sm-4">
-          <img src="images/yogurt.png" class="img-fluid rounded shadow p-2" />
+          <img
+            src="images/yogurt.png"
+            class="img-fluid rounded shadow p-2"
+            alt="yogurt-image"
+          />
         </div>
       </div>
     </div>
-    <div id="contact">
-      <h2>📮 Contact me</h2>
-      <a href="mailto:front-end@coder.com" class="email-link">
+    <div>
+      <h2 id="contact">📮 Contact me</h2>
+      <br />
+      <a
+        href="mailto:front-end@coder.com"
+        class="email-link"
+        title="mary-Nevermann-emailadresse"
+      >
         front-end@coder.com</a
       >
     </div>
